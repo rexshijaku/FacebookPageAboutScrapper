@@ -42,7 +42,7 @@ or in case of some error :
 - Scrappe more fileds
 
 ### Support
-For general questions about pdfbarcode.js, tweet at @rexshijaku or write me an email on rexhepshijaku@gmail.com.
+For general questions about Facebook Page About Scrapper, tweet at @rexshijaku or write me an email on rexhepshijaku@gmail.com.
 To have a quick tutorial check the examples folder provided in the repository.
 
 ### Author
