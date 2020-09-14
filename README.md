@@ -4,34 +4,35 @@ Scrappes About section of any Facebook Page
 ### Usage
 Download facebook_page_about_scrapper folder and include it in your project. Afterwards import extractor function as follows : 
 ```py
-    from facebook_page_about_scrapper.scrapper import  getFacebookPageAbout
+from facebook_page_about_scrapper.scrapper import  getFacebookPageAbout
 ```
 and use it one of two ways : 
 ```py
-   about = getFacebookPageAbout("telegraficom")
+about = getFacebookPageAbout("telegraficom")
 ```
 or 
 ```py
-   about = getFacebookPageAbout("http://www.facebook.com/telegraficom")
+about = getFacebookPageAbout("http://www.facebook.com/telegraficom")
 ```
-the about object (the result object) in will give results like : 
+the about object (the result object) will have a value like below : 
 
 ```js
-   { 'success': True, 
-       'info':  { 'is_verified': True, 
-                  'phone': {'exists': True, 'value': '038 224 093'}, 
-                  'website': {'exists': True, 'value': 'https://telegrafi.com/'}, 
-                  'instagram': {'exists': True, 'value': '@telegrafi'}, 
-                  'email': {'exists': True, 'value': 'info@telegrafi.com'}
-                }
-   }
+{ 
+   'success': True, 
+   'info':  { 'is_verified': True, 
+              'phone': {'exists': True, 'value': '038 224 093'}, 
+              'website': {'exists': True, 'value': 'https://telegrafi.com/'}, 
+              'instagram': {'exists': True, 'value': '@telegrafi'}, 
+              'email': {'exists': True, 'value': 'info@telegrafi.com'}
+            }
+}
 ```
 or in case of some error :
 ```js
-    { 
-      'success': False, 
-      'message': <HTTPError 404: 'Not Found'>
-    }
+{ 
+  'success': False, 
+  'message': <HTTPError 404: 'Not Found'>
+}
 ```
 
 ### Known Issues
