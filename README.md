@@ -5,6 +5,10 @@ Scrappes About section of any Facebook Page
 
 <a href="https://www.buymeacoffee.com/rexshijaku" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="50" width="180"></a>
 
+# Warning
+Due to recent Facebook changes, this script will not be able to extract the promised information. Until the changes are adapted this project will not be functional. 
+
+
 ### Usage
 Download facebook_page_about_scrapper folder and include it in your project. Afterwards import extractor function as follows : 
 ```py
